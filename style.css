@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+}
+
+/* Шрифты */
+.mulish-extrabold {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.mulish-bold {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.mulish-semibold {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.mulish-medium {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 100px;
+    color: #242F65;
+}
+
+h3 {
+    color: #242F65;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+h5 {
+    font-size: 30px;
+    color: #242F65;
+    margin-bottom: 18px;
+}
+
+
+/* HEADER */
+.header {
+    margin: 40px 250px 50px 250px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header_logo > span {
+    font-size: 37px;
+}
+
+.header_menu {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    position: absolute;
+    right: 0%;
+}
+
+.header_menu_el {
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    margin-right: 60px;
+}
+
+
+/* Заголовок */
+.title {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url('./static/images/Background.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.title_text {
+    position: relative;
+    top: 3%;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+.title_text > span {
+    font-size: 50px;
+    color: #242F65;
+}
+
+
+.work {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    float: left;
+    clear: both;
+}
+
+/* Work Title */
+.work_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.line {
+    border-bottom: 1px solid #cccccc;
+    height: 50%;
+    width: 28vw;
+}
+
+.work_title_text {
+    padding: 0px 32px 0px 32px;
+    height: 40px;
+    color: #242F65;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
+
+.work_tab {
+    background-size: cover;
+    width: 100%;
+    height: 558px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.work_tab_content {
+    width: 36%;
+    height: 62%;
+    margin-left: 5.9%;
+}
+
+.work_dsc {
+    font-size: 20px;
+    color: #525665;
+    margin-bottom: 45px;
+    display: block;
+}
+
+.work_tag {
+    display: inline-block;
+    font-size: 18px;
+    padding: 11px 25px 11px 25px;
+    border-radius: 10px;
+    margin-right: 12px;
+    margin-bottom: 25px;
+}
+
+.work_link {
+    font-size: 18px;
+    padding: 20px 38px 20px 38px;
+    background-color: #FF774C;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.tag1 {
+    background-color: #d9deee;
+    color: #6878A7;
+}
+
+.tag2 {
+    background-color: #DFDFDF;
+    color: #525665;
+}
+
+.tag3 {
+    background-color: white;
+    color: #5AB5D1;
+}
+
+.tag4 {
+    background-color: #ECCFB8;
+    color: #AE7E56;
+}
+
+.soon_tabs {
+    display: flex;
+}
+
+.soon-img {
+    margin-bottom: 36px;
+}
+
+.soon_link {
+    font-family: 'Mulish';
+    font-weight: 500;
+    color: white;
+    padding: 19px 26px 19px 26px;
+    background-color: #BBBBBB;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.soon_dsc {
+    margin-bottom: 35px;
+}
