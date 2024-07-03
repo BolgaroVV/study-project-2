@@ -3,11 +3,25 @@
 }
 
 /* Шрифты */
+.mulish-black {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
 .mulish-extrabold {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+}
+
+.mulish-bold-italic {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .mulish-bold {
@@ -111,25 +125,26 @@ h5 {
     position: relative;
     left: 50%;
     transform: translate(-50%);
-    float: left;
-    clear: both;
+    display: inline-block;
+    margin-bottom: 150px;
 }
 
-/* Work Title */
-.work_title {
+/* Blocks'es Titles */
+.block_title {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 65px;
+    box-sizing: content-box;
 }
 
-.line {
+.block-line {
     border-bottom: 1px solid #cccccc;
-    height: 50%;
+    height: 1px;
     width: 28vw;
 }
 
-.work_title_text {
+.block_title_text {
     padding: 0px 32px 0px 32px;
     height: 40px;
     color: #242F65;
@@ -140,7 +155,10 @@ h5 {
     border-right: 1px solid #cccccc;
 }
 
+
+/* Work Tabs */
 .work_tab {
+    position: relative;
     background-size: cover;
     width: 100%;
     height: 558px;
@@ -221,4 +239,33 @@ h5 {
 
 .soon_dsc {
     margin-bottom: 35px;
+}
+
+.about-me {
+    width: 100%;
+    background-color: #E8EFF0;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me-content {
+    position: relative;
+    display: flex;
+    margin-bottom: 220px;
+}
+
+.about-me-content p {
+    font-family: 'Mulish';
+    font-weight: 500;
+    font-size: 20px;
+    color: #525665;
+    width: 50%;
+}
+
+.about-me-img {
+    position: absolute;
+    right: 0px;
+    border-radius: 30px;
 }
