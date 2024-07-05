@@ -69,7 +69,7 @@ p {
     height: 90vh;
     left: 50%;
     transform: translate(-50%);
-    background-image: url('./static/images/Background.png');
+    background-image: url('./static/images/title/Background.png');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,6 +221,8 @@ p {
 }
 
 .about-me-content {
+    width: min-content;
+    min-width: fit-content;
     position: relative;
     margin-bottom: 220px;
     display: flex;
@@ -282,7 +284,7 @@ p {
     font-family: 'Mulish';
     font-weight: 600;
     font-size: 20px;
-    list-style-image: url('/static/images/Pattern.png');
+    list-style-image: url('/static/images/services-icons/Pattern.png');
 }
 
 .services li {
@@ -357,7 +359,7 @@ p {
     left: 50%;
     transform: translate(-50%);
     display: inline-block;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 .news-content {
@@ -385,11 +387,101 @@ p {
     margin-bottom: 15px;
 }
 
-
 .news-tab a {
     text-decoration: none;
     color:#242F65;
     font-family: 'Mulish';
     font-weight: 700;
     font-size: 18px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-size: cover;
+    background-image: url('./static/images/footer/Background (3).png');
+}
+
+#footer-scroll {
+    margin: 108px 0 85px 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.footer-text {
+    white-space: nowrap;
+    font-family: 'Mulish';
+    font-weight: 500;
+    font-size: 50px;
+    color: #242F65;
+}
+
+.footer-mailbox {
+    margin-top: 62px;
+    padding: 100px 260px 90px 260px;
+    border-top: 1px solid #D092BA;
+    border-bottom: 1px solid #D092BA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-nav {
+    list-style: none;
+    font-size: 25px;
+    color: #242F65;
+    font-family: 'Fraunces';
+    font-weight: 400;
+    margin-right: 130px;
+}
+
+.footer-nav-el {
+    margin-bottom: 30px;
+    a {
+        text-decoration: none;
+        color: #242F65;
+    }
+}
+
+.footer-mail {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Fraunces';
+    font-weight: 400;
+    font-size: 25px;
+    color: #242F65;
+
+    span {
+        margin-right: 60px;
+    }
+
+    button {
+        padding: 18px 28px 18px 28px;
+        border-radius: 10px;
+        background-color: #242F65;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Mulish';
+        font-weight: 600;
+        font-size: 18px;
+    }
+}
+
+
+.copyrights {
+    display: inline-block;
+    font-family: 'Mulish';
+    font-weight: 500;
+    font-size: 20px;
+    color: #242F65;
+    margin: 20px 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
